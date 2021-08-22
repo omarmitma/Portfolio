@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body #navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #be3144;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 100;
+}
+
+body #navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 40px;
+  display: block;
+  height: 100%;
+}
+
+body #navbar ul li a:hover {
+  background-color: #45567d;
+}
+
+body #welcome-section {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color: #fff;
+}
+
+body #welcome-section h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+body #welcome-section span {
+  text-align: center;
+  color: #be3144;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+body #projects {
+  background-color: #45567d;
+  text-align: center;
+  padding: 100px 10px;
+}
+
+body #projects h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+body #projects .project-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(340px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+body #projects .project-grid a {
+  position: relative;
+  max-height: 400px;
+  overflow-y: hidden;
+  margin: 40px;
+}
+
+body #projects .project-grid a img {
+  width: 100%;
+}
+
+body #projects .project-grid a p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #303841;
+  padding: 35px 10px;
+  color: #fff;
+  max-height: 88px;
+}
+
+body #projects .project-grid a p span {
+  font-size: 1.2rem;
+  margin: 5px 8px;
+  color: #303841;
+  -webkit-transition: color .6s;
+  transition: color .6s;
+}
+
+body #projects .project-grid a:hover p span {
+  color: #ff7f50;
+}
+
+body #projects .project-grid .calculator {
+  height: 100%;
+}
+
+body #contact {
+  background-color: #303841;
+  text-align: center;
+  padding: 90px 0;
+}
+
+body #contact h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+body #contact div {
+  margin-top: 30px;
+}
+
+body #contact div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+body #contact div a i {
+  font-size: 25px;
+}
+
+body #contact div a:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+/*# sourceMappingURL=estilo.css.map */
